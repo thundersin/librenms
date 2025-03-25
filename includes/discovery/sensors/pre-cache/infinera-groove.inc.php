@@ -56,3 +56,5 @@ if (! isset($pre_cache['infineragroove_slotTable']) || ! is_array($pre_cache['in
     echo ' cardTable';
     $pre_cache['infineragroove_slotTable'] = snmpwalk_cache_multi_oid($device, 'cardTable', $pre_cache['infineragroove_slotTable'], 'CORIANT-GROOVE-MIB');
 }
+
+echo "\n";
